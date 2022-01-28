@@ -1,0 +1,11 @@
+.small{
+    background-color:aqua;
+    padding: 20px;
+    margin: auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap}
+#fetchdata{
+    background-color: coral;
+    padding: 20px;
+}
