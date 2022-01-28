@@ -20,7 +20,7 @@ const getData = async () => {
       let pokeAbility = result.abilities;
       let pokeMove = result.moves;      
       displayResult.innerHTML +=`
-    
+     <div class="small">
       <img src="${
         result.sprites.front_default
       }" alt="pokemon front image" /><br><br>
@@ -39,7 +39,7 @@ const getData = async () => {
         pokeMove[1].move.name
       }<br><br>
       
-      `
+     </div> `
     }
     
   } catch (error) {
